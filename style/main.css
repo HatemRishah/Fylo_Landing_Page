@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Fonts */
+  --body-size: 0.875rem;
+  --ff-heading: "Raleway", sans-serif;
+  --ff-body: "Open Sans", sans-serif;
+  --fw-regular: 400;
+  --ff-bold: 700;
+
+  /* Colors */
+  --navy800: hsl(219, 30%, 18%); /* Testimonials Background */
+  --navy850: hsl(217, 28%, 15%); /* Intro, Email, SignUp Background */
+  --navy900: hsl(218, 28%, 13%); /* Main Background */
+  --navy950: hsl(216, 53%, 9%); /* Footer Background */
+
+  --teal200: hsl(176, 68%, 64%); /* Inside Call-To-Action Gradient */
+  --cyan500: hsl(198, 60%, 50%); /* Inside Call-To-Action Gradient */
+  --red-error: hsl(0, 100%, 63%); /* For Errors */
+}
+
+body {
+  font-size: var(--body-size);
+  font-family: var(--ff-body);
+  font-weight: var(--fw-regular);
+  background-color: var(--navy900);
+  
+}
