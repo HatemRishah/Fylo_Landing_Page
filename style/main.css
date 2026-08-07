@@ -26,9 +26,9 @@
 }
 
 body {
+  color: white;
   font-size: var(--body-size);
   font-family: var(--ff-body);
   font-weight: var(--fw-regular);
   background-color: var(--navy900);
-  
 }
