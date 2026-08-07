@@ -30,5 +30,8 @@ body {
   font-size: var(--body-size);
   font-family: var(--ff-body);
   font-weight: var(--fw-regular);
-  background-color: var(--navy900);
+  background-color: var(--navy800);
+}
+main {
+  padding: 16px;
 }

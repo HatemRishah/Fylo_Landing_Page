@@ -1,0 +1,5 @@
+.one img:nth-of-type(2) {
+  z-index: -3;
+  position: relative;
+  top: -160px;
+}
