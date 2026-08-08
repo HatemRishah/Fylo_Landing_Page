@@ -1,3 +1,6 @@
+header, .header{
+  background-color : var(--navy800);
+}
 header {
   display: flex;
   justify-content: space-between;

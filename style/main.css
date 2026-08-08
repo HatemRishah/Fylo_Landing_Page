@@ -30,8 +30,17 @@ body {
   font-size: var(--body-size);
   font-family: var(--ff-body);
   font-weight: var(--fw-regular);
-  background-color: var(--navy800);
+  background-color: var(--navy900);
 }
 main {
+  text-align: center;
+}
+section {
   padding: 16px;
+}
+h1,
+h2,
+h3 {
+  font-family: var(--ff-heading);
+  font-weight: var(--fw-bold);
 }
